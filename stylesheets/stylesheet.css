@@ -304,7 +304,9 @@ Full-Width Styles
 }
 /* well i prefer miku better than black gradation */
 #header_wrap {
-    background: url(../images/bg.jpg) no-repeat center center fixed; 
+    /*for img loading*/
+    background: url(../images/bg0.jpg) no-repeat center center fixed; 
+    background: url(../images/bg.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

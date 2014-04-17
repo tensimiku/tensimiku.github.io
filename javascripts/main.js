@@ -1,13 +1,13 @@
 $(window).load(function () {
     var i = 0;
-    var images = ['images/bg0.jpg', 'images/bg.jpg'];
-    var image = $('#header_wrap');
+    var bgs = ['images/bg0.jpg', 'images/bg.jpg'];
+    var bg = $('#header_wrap');
     setInterval(function () {
-        image.fadeOut(1000, function () {
-            image.css('background-image', 'url(' + images[i++] + ')');
-            image.fadeIn(1000);
+        bg.fadeOut(393, function () {
+            bg.css('background', 'url(' + bgs[i++] + ')');
+            bg.fadeIn(393);
         });
-        if (i == images.length)
+        if (i == bgs.length)
             i = 0;
-    }, 14000);
+    }, 13939);
 });
