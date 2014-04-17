@@ -268,7 +268,24 @@ Full-Width Styles
   padding: 20px 10px;
   margin: 0 auto;
 }
-
+#locate_twitter{
+    display: block;
+    position: absolute;
+    top:700px;
+    right: 70px;
+    font-weight: 700;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+#locate_contact{
+    display: block;
+    position: absolute;
+    top:700px;
+    right: 10px;
+    font-weight: 700;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
 #forkme_banner {
   display: block;
   position: absolute;
