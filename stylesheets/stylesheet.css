@@ -397,11 +397,11 @@ Small Device Styles
 *******************************************************************************/
 
 @media screen and (max-width: 480px) {
-    #locate_twitter {
-        top:640px;
+    #locate_contact {
+        top:660px;
     }
     #locate_twitter {
-        top:640px;
+        top:660px;
     }
   body {
     font-size:14px;
