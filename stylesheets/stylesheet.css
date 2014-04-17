@@ -408,6 +408,8 @@ Small Device Styles
   .inner {
     min-width: 320px;
     max-width: 480px;
+    padding: 20px 10px;
+    margin: 0 auto;
   }
 
   #project_title {
