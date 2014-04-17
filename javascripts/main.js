@@ -4,7 +4,7 @@ $(window).load(function () {
     var bg = $('#header_wrap');
     setInterval(function () {
         bg.fadeOut(393, function () {
-            bg.css('background', 'url(' + bgs[i++] + ')');
+            bg.css('background-image', 'url(' + bgs[i++] + ')');
             bg.fadeIn(393);
         });
         if (i == bgs.length)
