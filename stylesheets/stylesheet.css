@@ -273,6 +273,7 @@ Full-Width Styles
     position: absolute;
     top:700px;
     right: 70px;
+    z-index: 10;
     font-weight: 700;
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
@@ -282,6 +283,7 @@ Full-Width Styles
     position: absolute;
     top:700px;
     right: 10px;
+    z-index: 10;
     font-weight: 700;
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
@@ -398,10 +400,10 @@ Small Device Styles
 
 @media screen and (max-width: 480px) {
     #locate_contact {
-        top:660px;
+        top:685px;
     }
     #locate_twitter {
-        top:660px;
+        top:685px;
     }
   body {
     font-size:14px;
