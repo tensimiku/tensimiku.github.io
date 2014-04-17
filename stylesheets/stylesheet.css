@@ -283,7 +283,7 @@ Full-Width Styles
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
-
+/* well i prefer miku better than black gradation */
 #header_wrap {
     background: url(../images/bg.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -301,23 +301,23 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 100px 30px 70px 30px;
+  padding: 300px 30px 300px 30px;
 }
 
 #project_title {
   margin: 0;
-  color: #fff;
+  color: #333;
   font-size: 42px;
   font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
+  text-shadow: #ddd 0px 0px 10px;
 }
 
 #project_tagline {
-  color: #fff;
+  color: #555;
   font-size: 24px;
   font-weight: 300;
   background: none;
-  text-shadow: #111 0px 0px 10px;
+  text-shadow: #eee 0px 0px 10px;
 }
 
 #downloads {
