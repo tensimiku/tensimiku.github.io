@@ -3,6 +3,7 @@ $(window).load(function () {
     var i = 0;
     var bgs = ['images/bg0.jpg', 'images/bg.jpg'];
     var bg = $('#header_wrap');
+    /*
     $("#header_wrap").click(function () {
         bg.fadeOut(393, function () {
             if (i >= 2)
@@ -12,7 +13,9 @@ $(window).load(function () {
         bg.fadeIn(393);
     }
     );
-    /*
+    */
+    /* click event is pretty cooool. but..
+    l like this one */
     setInterval(function () {
 
         bg.fadeOut(393, function () {
@@ -23,5 +26,5 @@ $(window).load(function () {
         });
 
     }, 13939);
-    */
+    
 });
